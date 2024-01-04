@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="menu.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SiteFusion</title>
+</head>
+
+<body>
+
+    </nav>
+
+    <header>
+      <div class="title">
+          <h1>SiteFusion</h1>
+      </div>
+      <nav class="navbar">
+          <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="#">Início</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Instituição</a></li>
+              <li class="nav-item"><a class="nav-link" href="Perguntas intolerancia.html">Formulário</a></li>
+          </ul>
+      </nav>
+  </header>
+
+<main>
+        <aside>
+            <h2><span>SEJA BEM VINDO</span></h2>
+            <P>Olá e seja bem-vindo(a) ao nosso site! Estamos extremamente felizes em recebê-lo(a) nesta plataforma dedicada a compartilhar conhecimento, inspiração e recursos valiosos. Aqui, você encontrará um espaço dinâmico e envolvente, projetado para atender às suas necessidades acadêmicas e além.
+
+                Nossa equipe se empenhou em criar um ambiente que estimule a aprendizagem, promova a criatividade e encoraje a busca pelo conhecimento. Quer você seja um estudante curioso, um professor dedicado ou um entusiasta do aprendizado, temos algo especial reservado para você.</P>
+        </aside>
+
+<article>
+    <img src="./imgs/forming team leadership-amico.png" alt="team" height="600px" width="auto">
+</article>
+</main>
+
+<hr>
+
+</div>
+
+
+ 
+
+<h1 class="txtmenu">Menu</h1>
+<div class="grid-container">
+    <div class="grid-item">
+<img src="./imgs/leadership-amico.png" alt="time2" height="500px">
+</div>
+<div class="grid-item">
+  <div class="fundo-texto"> 
+    <p>Explore as diversas seções do nosso site, onde você encontrará uma riqueza de recursos selecionados com cuidado, para auxiliá-lo(a) em cada etapa do seu caminho educacional. Seja você um estudante ávido, um pesquisador curioso ou um professor dedicado, temos algo especial para todos.
+
+        Esteja à vontade para mergulhar de cabeça e aproveitar ao máximo a variedade de informações e ferramentas disponíveis. Estamos aqui para apoiá-lo(a) e encorajá-lo(a) a expandir seus horizontes, desafiar suas habilidades e alcançar resultados extraordinários.</p>
+  </div>
+</div>
+</div>
+<H3></H3>
+<a href="TRABALHO 2/index.html"><button class="tablink" onclick="openPage( this, 'gray')">INTOLERANCIA RELIGIOSA</button></a>
+<a href="ConteudoNazismo/ConteudoNazismo/nazismo.html"><button class="tablink" onclick="openPage( this, 'gray')">NAZISMO</button></a>
+<a href="Especismo/EducaPlus-main/index.html"><button class="tablink" onclick="openPage( this, 'gray')">ESPECISMO</button></a>
+<a href="ConteudoRacismo/ConteudoRacismo/ConteudoRacismo/racismo.html"><button class="tablink" onclick="openPage( this, 'gray')">RACISMO</button></a>
+.<a href="site-xenofobia/xenofobia.html"><button class="tablink" onclick="openPage( this, 'gray')">XENOFOBIA</button></a>
+
+
+
+<div id="" class="tabcontent">
+  <h3></h3>
+  <p></p>
+</div>
+
+<div id="News" class="tabcontent">
+  <h3></h3>
+  <p></p>
+</div>
+
+<div id="Contact" class="tabcontent">
+  <h3></h3>
+  <p></p>
+</div>
+
+<div id="About" class="tabcontent">
+  <h3></h3>
+  <p><p>
+</div>
+
+
+<footer>
+    <div class="container">
+        <p>&copy; 2023.  Todos os direitos reservados.</p>
+      </div>   
+</footer>
+
+<script>
+    function openPage(pageName,elmnt,color) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+      }
+      document.getElementById(pageName).style.display = "block";
+      elmnt.style.backgroundColor = color;
+    }
+    
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+    </script>
+
+
+</body>
+</html>
